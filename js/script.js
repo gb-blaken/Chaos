@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const radius = 200 + (Math.random() * 30 - 15);
     const x = Math.cos(angle) * radius;
     const y = Math.sin(angle) * radius;
-    planet.style.left = `${150 + x}px`;
-    planet.style.top = `${150 + y}px`;
+    planet.style.left = `${250 + x}px`; // 從中心點(250, 250)出發
+    planet.style.top = `${250 + y}px`;
   });
 });
