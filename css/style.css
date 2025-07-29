@@ -1,13 +1,13 @@
 .orbital-ring {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   margin: 0 auto;
 }
 
 .planet {
   position: absolute;
-  width: 600px;
+  width: 800px;
   height: 60px;
   background: radial-gradient(circle at 30% 30%, #ffffffcc, #ffffff22);
   border-radius: 50%;
