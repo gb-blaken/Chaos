@@ -10,7 +10,7 @@
   width: 800px;
   height: 60px;
   background: radial-gradient(circle at 30% 30%, #ffffffcc, #ffffff22);
-  border-radius: 50%;
+  border-radius: 70%;
   animation: float 6s ease-in-out infinite;
   animation-delay: calc(var(--i) * -0.5s);
   transform: translate(-50%, -50%);
